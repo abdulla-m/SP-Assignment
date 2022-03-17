@@ -3,7 +3,7 @@ Assignment is to get recent pull request from any public repository and send ema
 
 # How to execute?
 
-1. Invoke powershell script "scripts/Get-PullResquests.ps1"
+1. Invoke powershell script "scripts/Get-PullRequests.ps1"
 2. It takes two arguments "repo_owner" and "repo_name", which construct github uri.
    <p/> e.g. https://api.github.com/repos/microsoft/powertoys/pulls
    <p/>Here "microsoft" is "repo_owner" and "powertoys" is "repo_name"
@@ -16,5 +16,5 @@ Assignment is to get recent pull request from any public repository and send ema
 5. Sample run commands,
    <code>
        <p/>cd Scripts
-       <p/>./Get-PullResquests.ps1 -repo_owner "microsoft" -repo_name "powertoys"
+       <p/>./Get-PullRequests.ps1 -repo_owner "microsoft" -repo_name "powertoys"
     <code/>
